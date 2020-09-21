@@ -1,9 +1,8 @@
 ## Duke University Courses 
 ### Java Programming and Software Engineering Fundamentals Specialization
+---
 data structure and algorithms
-----
-java programming principles of software design
-----
-Java Recommendation system 
+
+Java programing principles of software design
 
 
