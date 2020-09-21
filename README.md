@@ -4,6 +4,6 @@ data structure and algorithms
 ----
 java programming principles of software design
 ----
-Recommendation system
+Java Recommendation system 
 
 
