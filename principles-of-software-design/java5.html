@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    when and if the second boolean expression is checked, we know that the first
+boolean expression is false, and therefore we know that score is less than 90.
+Thus, the multibranch if-else statement would have the same meaning
+if we replaced
+(score >= 80)
+with
+((score >= 80) && (score < 90))
+Using the same sort of reasoning on each boolean expression, we see that the
+multibranch if-elseTUBUFNFOUJO-JTUJOHJTFRVJWBMFOUUPUIFGPMMPXJOH
+if (score >= 90)
+ grade = 'A';
+else if ((score >= 80) && (score < 90))
+ grade = 'B';
+else if ((score >= 70) && (score < 80))
+ grade = 'C';
+else if ((score >= 60) && (score < 70))
+ grade = 'D';
+else
+ grade = 'F';
+.PTU QSPHSBNNFST XPVME VTF UIF WFSTJPOJO -JTUJOH  CFDBVTFJ
+
+
+import java.util.Scanner;
+public class Grader
+{
+public static void main(String[] args)
+ {
+int score;
+char grade;
+ System.out.println("Enter your score: ");
+ Scanner keyboard = new Scanner(System.in);
+ score = keyboard.nextInt();
+if (score >= 90)
+ grade = 'A';
+else if (score >= 80)
+ grade = 'B';
+else if (score >= 70)
+ grade = 'C';
+else if (score >= 60)
+ grade = 'D';
+else
+ grade = 'F';
+ System.out.println("Score = " + score);
+ System.out.println("Grade = " + grade);
+ }
+}
+
+Sample Screen Output
+Enter your score:
+85
+Score = 85
+Grade = B
+</body>
+</html>
