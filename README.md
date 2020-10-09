@@ -4,7 +4,7 @@
 Java programing principles of software design
 
 ---
-#####Java Programming: Build a Recommendation System
+##### Java Programming: Build a Recommendation System
 
 1. Read in and parse data into lists and maps;
 2. Calculate average ratings;
