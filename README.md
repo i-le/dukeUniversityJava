@@ -12,4 +12,4 @@
 4. Recommend movies to a given user based on ratings;
 5. Display recommended movies for a given user on a webpage;
 6. Design Partten;
-7. 
+7. sorting
