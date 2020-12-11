@@ -57,6 +57,7 @@ public class FirstRatings {
                 }
             }
         }
+	    
         System.out.println("There is(are) "+Comedy+" comedy(ies).");
         System.out.println("There is(are) "+time150+" movies that is(are) longer than 150 mins.");
         for(String dir: directors_movies.keySet()){
