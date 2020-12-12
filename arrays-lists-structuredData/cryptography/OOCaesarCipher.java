@@ -4,7 +4,8 @@ package assignment.week1;
 
 public class OOCaesarCipher {
     private String alphabet;
-    private String shiftedAlphabet;
+    private String shiftedAlp
+        habet;
     private int mainKey;
     public OOCaesarCipher(int key){
         //Write down the alphabet
