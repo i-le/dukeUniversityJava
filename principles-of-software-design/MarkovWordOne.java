@@ -13,6 +13,7 @@ public class MarkovWordOne implements IMarkovModel {
     private String[] myText;
     private Random myRandom;
     
+	
     public MarkovWordOne() {
         myRandom = new Random();
     }
