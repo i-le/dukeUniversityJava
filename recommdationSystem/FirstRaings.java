@@ -44,6 +44,10 @@ public class FirstRatings {
             if(m.getMinutes()> 150){
                 time150 ++;
             }
+		if(m.getMinutes() > 150{
+			time150 ++;
+		}
+		   
             String[] directors = m.getDirector().split(", ");
 			/*for(int i=0; i < directors.length; i++){
 				System.out.println("for "+m+": "+directors[i]);
