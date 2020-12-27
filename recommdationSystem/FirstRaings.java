@@ -100,6 +100,7 @@ public class FirstRatings {
 			}
 		}
 		return list;
+	    
 	}
     
     public void testLoadRaters(){
