@@ -67,6 +67,10 @@ public class QuakeSortInPlace {
             in.set(largestIdx,qi);
         }
     }
+	          // remove the number of characters returned from `follows` from the
+            // front of the key, then add `next` to the end of that to make a new
+            // key.  substring(next.length()) will remove the leading characters.
+            // It returns an empty string when next.length() = 1, which is perfect.
 
     public void onePassBubbleSort(ArrayList<QuakeEntry> quakeData, int numSorted) {
         // sorts element i-1 and i, which is why we start at 1.
