@@ -13,7 +13,7 @@ public class MovieRunnerAverage {
     }
     public void getAverageRatingOneMovie(){
         SecondRatings sr = new SecondRatings("ratedmoviesfull.csv","ratings.csv");
-        String title = "Vacation"; 
+        String title = "Vacation"
         String movieId = sr.getID(title);
         int minimalRaters = 0;
         ArrayList<Rating> avgList = sr.getAverageRatings(minimalRaters);
