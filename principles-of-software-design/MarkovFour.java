@@ -49,7 +49,7 @@ public class MarkovFour {
             // front of the key, then add `next` to the end of that to make a new
             // key.  substring(next.length()) will remove the leading characters.
             // It returns an empty string when next.length() = 1, which is perfect.
-                      // remove the number of characters returned from `follows` from the
+            // remove the number of characters returned from `follows` from the
             // front of the key, then add `next` to the end of that to make a new
             // key.  substring(next.length()) will remove the leading characters.
             // It returns an empty string when next.length() = 1, which is perfect.
