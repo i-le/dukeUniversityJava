@@ -55,7 +55,6 @@ public class MarkovFour {
             // It returns an empty string when next.length() = 1, which is perfect.
             key = key.substring(next.length())+next;
         }
-
         return sb.toString();
     }
 
