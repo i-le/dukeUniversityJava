@@ -7,7 +7,6 @@ public class QuakeSortWithTwoArrayLists {
     public QuakeSortWithTwoArrayLists() {
         // TODO Auto-generated constructor stub
     }
-   
     public QuakeEntry getSmallestMagnitude(ArrayList<QuakeEntry> quakes) {
         QuakeEntry min = quakes.get(0);
         for (QuakeEntry q: quakes) {
