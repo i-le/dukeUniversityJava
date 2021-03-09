@@ -31,7 +31,6 @@ public class MarkovFour {
         // put it into the buffer.
         String key = myText.substring(index, index+markovOrder);
         sb.append(key);
-
         // Now, for each key and the number of characters we're supposed to do,
         // get the list of characters (as 1-character strings) that follows the
         // key.  Then pick one of those following 1-character strings at random
