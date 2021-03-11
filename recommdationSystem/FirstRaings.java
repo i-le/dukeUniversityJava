@@ -1,7 +1,7 @@
 /**
  * Write a description of FirstRatings here.
  * 
- * @author (your name) 
+ * @author stephen z 
  * @version (a version number or a date)
  */
 
